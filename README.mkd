@@ -28,7 +28,7 @@ works in Linux.
 
 Install `pygatt` with pip:
 
-    $ pip install https://github.com/stratosinc/pygatt
+    $ pip install git+https://github.com/stratosinc/pygatt
 
 The BlueZ backend is not supported by default as it requires `pexpect`, which
 can only be installed in a UNIX-based environment. If you wish to use that
